@@ -17,4 +17,4 @@ int SumOfDigits(int a)
 
 Console.Write("Введите число: ");
 int a = int.Parse(Console.ReadLine()!);
-Console.WriteLine(SumOfDigits(a));
+Console.WriteLine($"Сумма цифр в числе {a} равна: {SumOfDigits(a)}");
